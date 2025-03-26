@@ -39,40 +39,6 @@ logo:                  /assets/img/menu/avatar.jpg
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
-  name:              <Brandon> <Briggs>
-  email:             <briggsbr01@gmail.com>
-
-  # Used at the bottom of each page and at the top of the `about` layout
-  # Markdown enabled, can use multiple paragraphs (enabled by `|`)
-  about:             |
-    Gaming has been an interest of mine from an early age.
-    I played on the SNES and PS1 as a kid and fell in love with gaming from an early age.
-    It developed into a curiousity of how games worked under the hood, leading to my career in games.
-    
-    I tend to conceptualise game development as creating and designing a jigsaw puzzle.
-    Each team develops pieces which connect to an overarching bigger picture. 
-    With programmers coming in to create the pieces used by other teams, slowly transforming these pieces to fit perfectly.
-    Working hard to solve each puzzle makes each challenge more rewarding, making me fall evermore in love with all aspects that programming provide.
-
-    I see myself as a very sociable person and often take the mantle of leader role in group projects.
-    This has aided myself in roles where social and leadership skills become necessary for great team based projects along with developing organisational skills.
-    I enjoy being creative and thinking of new innovative ideas for games; being a programmer it helps me express that into an art form I adore. 
-    
-    Improving my skills and knowledge is key to me bettering myself and the team around me, so I am always open to feedback on my work and the techniques I use. 
-
-  # This photo will be used in the about section
-  picture:
-    path:            /assets/img/menu/avatar.jpg
-    # srcset is optional, but can be used to provide higher res versions for retina displays
-    # srcset:
-      # 1x:            https://via.placeholder.com/128x128
-      # 2x:            https://via.placeholder.com/256x256
-
-  # Social media icons in sidebar
-  # Comment/uncommet to show/hide
-  # Rearrange to change the order in which they appear
-  # You can also provide an absolute URL (starting with https://) instead of usernames
-  social:
     twitter:         _Serange
     linkedin:        brandon-briggs-5815a2172/
     github:          Serange
@@ -82,10 +48,10 @@ author:
 menu:
   - title:             About
     url:               /about/
-  - title:             Portfolio
-    url:               /portfolio-home/
-  #- title:             Prometheus
-    #url:               /prometheus-home/
+  #- title:             Portfolio
+    #url:               /portfolio-home/
+  - title:             Prometheus
+    url:               /prometheus/
 
 
 # Add links to the footer.
@@ -168,19 +134,6 @@ defaults:
       accent_image:
         background:    rgb(32,32,32)
         overlay:       false
-
-  # Don't include documents in assets in the sitemap
-  - scope:
-      path:            assets/
-    values:
-      sitemap:         true
-
-  # Don't include licenses in sitemap (feel free to delete)
-  - scope:
-      path:            licenses/
-    values:
-      layout:          plain
-      sitemap:         true
 
   # # You can use the following to enable comments on all posts.
   # - scope:
@@ -296,7 +249,7 @@ hydejack:
   hide_dates:          false
 
   # Similarly, showing last modified date can devalue a post if it is too far in the past.
-  hide_last_modified:  false
+  hide_last_modified:  true
 
   # Note that dark mode only works in the PRO version of Hydejack.
   dark_mode:
