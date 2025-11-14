@@ -1,0 +1,197 @@
+basics:
+  name: "Brandon Briggs"
+  label: "Programmer"
+  picture: "/assets/author/avatar.jpg"
+  summary: >
+
+    I am an experienced and enthusiastic graphics programmer currently working within the games industry.
+    Skilled in collaborating within a team, committed to delivering high quality professional results,
+    whilst also excelling independently and adapting quickly to new challenges and programming methodologies.
+    I lead by example, embracing innovative approaches to drive both personal and team performance.
+    I have a proven ability to mentor colleagues and support their growth in proprietary engine work.
+        
+  profiles:
+    - network: "Twitter"
+      username: "_Serange"
+      url: "https://x.com/_Serange"
+
+    - network: "Bluesky"
+      username: "serange.bsky.social"
+      url: "https://bsky.app/profile/serange.bsky.social"
+
+    - network: "LinkedIn"
+      username: "Brandon Briggs"
+      url: "https://www.linkedin.com/in/brandon-briggs-5815a2172/"
+
+    - network: "Github"
+      username: "Serange"
+      url: "https://github.com/Serange"
+
+    - network: Email
+      username: briggsbr01@gmail.com
+      url: mailto:briggsbr01@gmail.com
+work:
+  - company: "Rebellion"
+    position: "Programmer"
+    website: "https://rebellion.com/"
+    startDate: "2025-06-01"
+    endDate: ""
+    summary: >
+      Following this, the team started work on the next iteration of Sniper Elite, applying lessons learned from the previous port to optimise performance and enhance the overall codebase.
+      My responsibilities included mentoring new programmers and updating systems to accommodate newer Apple APIs where older ones had been deprecated, whilst also focussing on
+      further Metal support within a newer engine.
+
+  - company: "Rebellion"
+    position: "Junior Programmer"
+    website: "https://rebellion.com/"
+    startDate: "2023-06-23"
+    endDate: "2025-06-01"
+    summary: >
+      Working at Rebellion was my first role within the games industry, where I began by working on the Apple port of Sniper Elite 4.
+      During development, I leveraged my low level graphics expertise to implement Metal as a supported graphics API for the Asura engine.
+      I also contributed to integrating various Apple ecosystem features, including On Demand Resources, In App Purchases, and threading with autorelease management.
+      Collaborating closely with other programmers and QA, we successfully released Sniper Elite 4 on Apple platforms in January 2025 to a great reception.
+      
+    keywords:
+    - ""
+
+  - company: "River Canal Rescue"
+    position: "Lead Software Engineer"
+    website: "https://rebellion.com/"
+    startDate: "2020-08-01"
+    endDate: "2023-06-01"
+    summary: >
+      As lead software engineer for WaterNav, I oversaw full stack development for a cross-platform iOS & Android canal navigation app,
+      including APIs, databases, and backend systems.
+
+      I modernized the Android app, ported it to iOS, and built the iOS version from scratch to achieve feature parity and improved performance.
+
+      I eventually managed a small engineering team, coordinating development across both platforms,
+      delegating sprint tasks, and integrating staff management systems, such as engineer schedules and stock management, into the app.
+
+      Key features I developed included offline route planning with A* pathfinding, real time live data updates, and RCR membership integration.
+
+      I also contributed to brand growth through trade show demos and live walkthroughs,
+      while mentoring developers and optimising workflows to deliver high quality features consistently.
+
+    keywords:
+      - "iOS"
+      - "Android"
+      - "Swift"
+      - "Java"
+      - "Kotlin"
+      - "Full-Stack"
+      - "Databases"
+      - "Offline Functionality"
+      - "Real Time Data"
+      - "Team Leadership"
+
+education:
+  - institution: "Staffordshire University"
+    area: "Computer Games Programming"
+    studyType: "BSc (Hons)"
+    startDate: "2018-09-01"
+    endDate: "2023-06-01"
+    gpa: "First Class Honours"
+    courses:
+      - "C++"
+      - "Vulkan"
+      - "DirectX"
+      - "OpenGL"
+      - "Unreal Engine 4"
+      - "Networking"
+
+
+  - institution: "Leeds City College of Technology"
+    area: "Game Development"
+    studyType: "BTEC Level 3 Extended Level Diploma"
+    startDate: "2016-09-01"
+    endDate: "2018-06-01"
+    gpa: "D*D*D*"
+    courses:
+      - "C++"
+      - "JavaScript"
+      - "Unreal Engine 4"
+      - "3DS Max"
+
+awards:
+  - title: "Games Programming GradEx - Runner Up"
+    date: "08-06-2023"
+    awarder: "Staffordshire University"
+    summary: "Awarded 2nd place at GradEx for my [Vulkan Ray Tracing Engine](../portfolio/university/university_vulkan_fyp/), developed as my final year project."
+
+publications:
+  - name: ""
+    publisher: ""
+    releaseDate: ""
+    website: ""
+    summary: ""
+
+interests:
+  - name: "Gaming"
+    keywords:
+      - "Hunt Showdown"
+      - "Valorant"
+      - "Witcher"
+      - "Assassin's Creed"
+      - "Crusader Kings"
+
+  - name: "Health"
+    keywords:
+      - "Cooking"
+      - "Gym"
+      - "Walking"
+      - "Hiking"
+      - "Tough Mudder"
+      - "Swimming"
+     
+  - name: "Leisure"
+    keywords:
+      - "Reading"
+      - "Movies"
+      - "Music"
+      - "Gaming"
+      - "Coding"
+      
+  - name: "Industry Conferences"
+    keywords:
+      - "SIGGRAPH"
+      - "GDC"
+      - "EGSR"
+      - "GPC"
+
+languages:
+  - language: "English"
+    fluency: "Native speaker"
+
+skills:
+# "Beginner" = 1 star, "Intermediate" = 2 stars, "Master" = 3 stars
+
+  - name: "Languages"
+    level: "Master"
+    keywords:
+      - "C"
+      - "C++"
+      - "ObjC"
+      - "Swift"
+      - "Java"
+      - "Kotlin"
+      - "Python"
+
+  - name: "Graphics APIs"
+    level: "Master"
+    keywords:
+      - "DirectX"
+      - "Vulkan"
+      - "Metal"
+      - "OpenGL"
+
+  - name: "Tools & Software"
+    level: "Master"
+    keywords:
+      - "Perforce"
+      - "JIRA"
+      - "Confluence"
+      - "Git"
+      - "Visual Studio"
+      - "XCode"

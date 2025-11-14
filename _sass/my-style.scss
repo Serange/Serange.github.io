@@ -1,0 +1,36 @@
+.dl-table 
+{
+    a {
+    @supports ((text-decoration-thickness: initial) and (text-underline-offset: initial)) {
+    text-underline-offset: .8rem;
+    }
+    @supports not ((text-decoration-thickness: initial) and (text-underline-offset: initial)) {
+    padding-bottom: .45rem;
+    }
+    }
+
+    .btn, .gumroad-button  {
+    margin: 1rem 0;
+    }
+}
+
+// Disables nav bar
+#_navbar { display: none }
+
+// Adds custom bluesky icon
+.icon-bluesky {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+
+    /* Use currentColor to inherit from CSS 'color' property */ 
+    background-color: currentColor;
+
+    /* Mask (standard) */
+    mask: url('/assets/icons/bluesky.svg') center / contain no-repeat;
+    -webkit-mask: url('/assets/icons/bluesky.svg') center / contain no-repeat;
+
+    /* Mask (Chromium/WebKit browsers) */
+    -webkit-mask: url('/assets/icons/bluesky.svg') no-repeat center;
+    -webkit-mask-size: contain;
+}
